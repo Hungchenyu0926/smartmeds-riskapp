@@ -6,7 +6,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 
 st.set_page_config(page_title="SmartMeds-AI", page_icon="💊", layout="wide")
-st.title("💊 SmartMeds-AI 交互作用與風險分層")
+st.title("💊 機構藥物交互作用與風險評估DEMO版")
 
 # ---------- Google Sheets 認證 ----------
 scope = [
