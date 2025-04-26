@@ -39,7 +39,7 @@ def gpt_risk_label(drug_list:str)->str:
     return "紅" if "紅" in ans else "黃" if "黃" in ans else "綠"
 
 # ---------- UI ----------
-st.subheader("📋 SmartMeds_DB 現況")
+st.subheader("📋 住民用藥記錄")
 df = st.session_state.get("df_cache")
 if df is None:
     import pandas as pd
